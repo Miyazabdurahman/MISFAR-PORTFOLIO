@@ -537,10 +537,12 @@ export default function Hero() {
   }
 
   /* 🔥 PHOTO SIZE */
-  .hero-photo {
-    width: 320px !important;
-    bottom: -69px !important;
+    .hero-photo {
+    width: 125% !important;   /* 🔥 bigger */
+    max-width: 380px;         /* control limit */
+    bottom: -110px !important; /* move down for better framing */
   }
+
 
   /* 🔥 REMOVE FLOATING BADGES */
   .stat-badge {
