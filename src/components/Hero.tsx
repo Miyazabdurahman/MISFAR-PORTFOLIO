@@ -540,7 +540,7 @@ export default function Hero() {
     .hero-photo {
     width: 900% !important;   /* 🔥 bigger */
     max-width: 420px;         /* control limit */
-    bottom: -160px !important; /* move down for better framing */
+    bottom: -150px !important; /* move down for better framing */
   }
 
 
