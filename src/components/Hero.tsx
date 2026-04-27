@@ -538,9 +538,9 @@ export default function Hero() {
 
   /* 🔥 PHOTO SIZE */
     .hero-photo {
-    width: 170% !important;   /* 🔥 bigger */
-    max-width: 380px;         /* control limit */
-    bottom: -135px !important; /* move down for better framing */
+    width: 900% !important;   /* 🔥 bigger */
+    max-width: 420px;         /* control limit */
+    bottom: -160px !important; /* move down for better framing */
   }
 
 
