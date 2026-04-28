@@ -167,6 +167,7 @@ export default function Skills() {
         .group-title {
           font-family: 'DM Mono', monospace;
           font-size: 0.75rem;
+          font-weight: 700;
           letter-spacing: 0.2em;
           color: #22d3ee;
           text-transform: uppercase;
@@ -184,6 +185,7 @@ export default function Skills() {
         .pill {
           font-family: 'Syne', sans-serif !important;
           font-size: 0.85rem;
+          font-weight: 550;
           color: #e2e8f0;
           padding: 6px 10px !important;
           border-radius: 6px;

@@ -270,7 +270,7 @@ export default function Hero() {
       animation: fadeIn 1s ease forwards 0.4s;
        flex-shrink: 0;
 
-  transform: translateY(70px); /* 🔥 DESKTOP FIX (move down) */
+  transform: translateY(100px);/* 🔥 DESKTOP FIX (move down) */
 }
         /* Glowing ring behind photo */
         .photo-ring {
@@ -361,8 +361,8 @@ export default function Hero() {
         /* Decorative corner bracket top-left of photo */
         .photo-bracket {
           position: absolute;
-          top: 5%;
-          left: 7%;
+          top: 0%;
+          left: 12%;
           width: 40px;
           height: 40px;
           border-top: 2px solid rgba(34,211,238,0.5);
@@ -372,7 +372,7 @@ export default function Hero() {
 
         .photo-bracket-br {
           position: absolute;
-          bottom: 12%;
+          bottom: 16%;
           right: 5%;
           width: 40px;
           height: 40px;
@@ -641,7 +641,7 @@ export default function Hero() {
           </div>
 
           {/* RIGHT — Photo */}
-          <div className="photo-wrapper" style={{ width: 'clamp(280px, 38vw, 480px)', height: 'clamp(340px, 45vw, 540px)', position: 'relative' }}>
+          <div className="photo-wrapper" style={{ width: 'clamp(280px, 38vw, 535px)', height: 'clamp(340px, 45vw, 540px)', position: 'relative' }}>
 
             {/* Glow layers */}
             <div className="photo-glow" />

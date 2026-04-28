@@ -141,7 +141,7 @@ export default function Navbar() {
         }
 
         .resume-btn {
-          font-family: 'DM Mono', monospace;
+          font-family: 'Syne', sans-serif;
           font-size: 0.7rem;
           letter-spacing: 0.1em;
           color: #22d3ee;
