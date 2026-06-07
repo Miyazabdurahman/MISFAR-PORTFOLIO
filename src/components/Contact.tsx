@@ -637,7 +637,7 @@ useEffect(() => {
 
               <div className="contact-location">
                 <MapPin size={12} />
-                Kerala . India
+                Saudi Arabia (KSA)
               </div>
 
               <a href="/misentho.pdf" target="_blank" rel="noopener noreferrer" className="btn-primary">
