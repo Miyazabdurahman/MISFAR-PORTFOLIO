@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://misfar-ahmad.vercel.app/sitemap.xml
